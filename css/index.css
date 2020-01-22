@@ -166,6 +166,7 @@ header nav a {
   padding: 0.5% 1%;
   font-family: 'Ubuntu', sans-serif;
   color: black;
+  text-align: center;
 }
 .intro {
   display: flex;

@@ -59,7 +59,7 @@ html, body {
 }
 body {
 	background-image: url("../img/bg.jpg");
-	background-color: greenyellow;
+	background-color: #D8DDD3;
 	background-position: center;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
@@ -85,6 +85,14 @@ div.wrapper {
 	border-radius: 20px;
 	padding: 0.5% 1%;
 }
+.headingText() {
+	font-family: @heading-font;
+	font-size: @heading-size;
+}
+.mainText() {
+	font-family: @main-font;
+	font-size: @main-size;
+}
 
 //header styles
 header {
@@ -101,6 +109,7 @@ header {
 			.background();
 			font-family: @heading-font;
 			color: black;
+			text-align: center;
 		}
 	}
 }
@@ -124,12 +133,10 @@ header {
 			font-family: @heading-font;
 		}
 		h2 {
-			font-size: @heading-size;
-			font-family: @heading-font;
+			.headingText();
 		}
 		p {
-			font-size: @heading-size;
-			font-family: @heading-font;
+			.headingText();
 		}
 	}
 
@@ -151,8 +158,7 @@ header {
 
 		h3 {
 			.background();
-			font-family: @heading-font;
-			font-size: @heading-size;
+			.headingText();
 			width: 25%;
 			text-align: center; 
 			margin-bottom: 2%;
@@ -160,8 +166,7 @@ header {
 
 		p {
 			.background();
-			font-family: @main-font;
-			font-size: @text-size;
+			.mainText();
 			line-height: 1.5;
 		}
 		img {
@@ -193,8 +198,7 @@ header {
 
 	h3 {
 		.background();
-		font-family: @heading-font;
-		font-size: @heading-size;
+		.headingText();
 		margin-bottom: 3%;
 		width: 23%;
 		text-align: center;
@@ -204,8 +208,7 @@ header {
 		
 		ul {
 			.background();
-			font-family: @main-font;
-			font-size: @text-size;
+			.mainText();
 			list-style-type: circle;
 			line-height: 2;
 			padding-left: 10%;
@@ -216,8 +219,7 @@ header {
 		
 		table {
 			.background();
-			font-family: @main-font;
-			font-size: @text-size;
+			.mainText();
 			width: 100%;
 			line-height: 2;
 

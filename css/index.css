@@ -137,7 +137,7 @@ body {
 }
 body {
   background-image: url("../img/bg.jpg");
-  background-color: greenyellow;
+  background-color: #D8DDD3;
   background-position: center;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -156,6 +156,7 @@ header {
 header nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-size: 2rem;
 }
 header nav a {
@@ -163,10 +164,11 @@ header nav a {
   margin-top: 2%;
   background-color: rgba(216, 248, 185, 0.57);
   border-radius: 20px;
-  padding: 0.5% 1%;
+  padding: 2%;
   font-family: 'Ubuntu', sans-serif;
   color: black;
   text-align: center;
+  padding: 3%;
 }
 .intro {
   display: flex;
@@ -181,7 +183,7 @@ header nav a {
 .intro .titles {
   background-color: rgba(216, 248, 185, 0.57);
   border-radius: 20px;
-  padding: 0.5% 1%;
+  padding: 2%;
   height: 50%;
 }
 .intro .titles h1 {
@@ -189,12 +191,12 @@ header nav a {
   font-family: 'Ubuntu', sans-serif;
 }
 .intro .titles h2 {
-  font-size: 2rem;
   font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
 }
 .intro .titles p {
-  font-size: 2rem;
   font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
 }
 .intro img.pic1 {
   border-radius: 50%;
@@ -212,7 +214,7 @@ header nav a {
 #about div h3 {
   background-color: rgba(216, 248, 185, 0.57);
   border-radius: 20px;
-  padding: 0.5% 1%;
+  padding: 2%;
   font-family: 'Ubuntu', sans-serif;
   font-size: 2rem;
   width: 25%;
@@ -222,7 +224,7 @@ header nav a {
 #about div p {
   background-color: rgba(216, 248, 185, 0.57);
   border-radius: 20px;
-  padding: 0.5% 1%;
+  padding: 2%;
   font-family: 'Poppins', sans-serif;
   font-size: 1.7rem;
   line-height: 1.5;
@@ -253,7 +255,7 @@ header nav a {
 .skills h3 {
   background-color: rgba(216, 248, 185, 0.57);
   border-radius: 20px;
-  padding: 0.5% 1%;
+  padding: 2%;
   font-family: 'Ubuntu', sans-serif;
   font-size: 2rem;
   margin-bottom: 3%;
@@ -266,7 +268,7 @@ header nav a {
 .skills #list ul {
   background-color: rgba(216, 248, 185, 0.57);
   border-radius: 20px;
-  padding: 0.5% 1%;
+  padding: 2%;
   font-family: 'Poppins', sans-serif;
   font-size: 1.7rem;
   list-style-type: circle;
@@ -279,7 +281,7 @@ header nav a {
 .skills #table table {
   background-color: rgba(216, 248, 185, 0.57);
   border-radius: 20px;
-  padding: 0.5% 1%;
+  padding: 2%;
   font-family: 'Poppins', sans-serif;
   font-size: 1.7rem;
   width: 100%;
